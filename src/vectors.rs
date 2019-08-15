@@ -23,7 +23,7 @@ pub fn run() {
   // Get vector length
   println!("Vector Length: {}", numbers.len());
 
-  // Vectore are stack allocated
+  // Vectors are heap allocated
   println!("Vector occupies {} bytes", mem::size_of_val(&numbers));
 
   // Get Slice
